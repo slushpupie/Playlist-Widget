@@ -1,0 +1,12 @@
+This is a basic framework for a widget that will display the last 5 songs in an XML playlist accessible by HTTP.  By itself it wont work, you need to configure it to connect to your service.  
+
+Additionally, this widget is configured to use Google Analytics to see how the widget gets used. You will need to provide an Analytics ID (in the form of UA-000000-00) for this to work.
+
+Compiling
+---------
+
+To compile this using Ant, you need to specify where your Android SDK is via the local.properties file. Create this file and add a line with the full path to your SDK:
+
+sdk.dir=/home/user/android-sdk
+
+

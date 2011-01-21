@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Playlist Widget</string>
+	<string name="playlist_name">Playlist Widget</string>
+	<string name="readme_top">Set the automatic refresh time for the playlist.</string>
+	<string name="readme_bottom">You can manually refresh the playlist at any time by tapping on the android at the top of the list.</string>
+	<string name="loading">Loading playlist...</string>
+	<string name="please_wait">Please wait.</string>
+	<string name="analytics_warn">To better understand how people use this widget, Google Analytics is employed to gather anonymous staticis about its usage.  Rest assured that no personally identifiable information is ever shared.</string>
+</resources>

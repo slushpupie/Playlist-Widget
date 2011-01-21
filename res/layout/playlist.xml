@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:padding="0dp"
+    >
+    
+    
+<LinearLayout android:id="@+id/playlist_widget"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">   
+    
+    	<LinearLayout
+    	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="0dp" > 
+	    
+		<Button android:id="@+id/logo" 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    android:background="@drawable/logo_button"
+		    android:padding="0dp" />
+    	
+    		<FrameLayout
+    		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+    		    android:paddingTop="15dp"
+    		    android:paddingLeft="5dp"
+    		    android:paddingBottom="5dp"
+    		    android:paddingRight="15dp">
+    		    
+		<LinearLayout android:id="@+id/track0"
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:background="@drawable/background_top"
+		    android:clickable="true"
+		    android:focusable="true"> 
+			
+			<TextView android:id="@+id/track_title0"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/loading"
+			    android:clickable="true"
+			    style="@style/Title.LastPlayed" />
+		
+			<TextView android:id="@+id/track_artist0"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="@string/please_wait"
+			    style="@style/Artist.LastPlayed" />
+				    
+			<TextView android:id="@+id/played_at0"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/PlayedAt.LastPlayed" />
+		</LinearLayout>
+		</FrameLayout>
+	</LinearLayout>
+			
+
+	<FrameLayout
+    		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+    		    android:paddingLeft="15dp"
+    		    android:paddingRight="15dp"
+    		    android:paddingBottom="15dp">
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:background="@drawable/background_lower" >
+	
+		<LinearLayout 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content">
+		
+			<TextView android:id="@+id/track_title1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/Title" />
+			    
+			<TextView android:id="@+id/track_artist1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text=""
+			    style="@style/Artist" />
+			
+		
+		</LinearLayout>
+		<TextView android:id="@+id/played_at1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/PlayedAt" />
+		
+		
+		
+		
+		
+		<LinearLayout 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content">
+		
+			<TextView android:id="@+id/track_title2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/Title" />
+			
+			<TextView android:id="@+id/track_artist2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    style="@style/Artist" />
+		
+		</LinearLayout>
+		<TextView android:id="@+id/played_at2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/PlayedAt" />
+		
+		
+		<LinearLayout 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content">
+		
+			<TextView android:id="@+id/track_title3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/Title" />
+			
+		<TextView android:id="@+id/track_artist3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    style="@style/Artist" />
+		</LinearLayout>
+		
+			<TextView android:id="@+id/played_at3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/PlayedAt" />
+		
+		
+		<LinearLayout 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content">
+		
+			<TextView android:id="@+id/track_title4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/Title" />
+			<TextView android:id="@+id/track_artist4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text=""
+		    style="@style/Artist" />
+		
+			
+		</LinearLayout>
+		<TextView android:id="@+id/played_at4"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="" 
+			    style="@style/PlayedAt" />
+		
+		
+	</LinearLayout>
+	</FrameLayout>
+</LinearLayout>
+</FrameLayout>
+
+		   

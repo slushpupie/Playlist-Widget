@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Title">
+    	<item name="android:textSize">10sp</item>
+    	<item name="android:textColor">#B70F02</item>
+    	<item name="android:textStyle">bold</item>
+    	<item name="android:ellipsize">end</item>
+    	<item name="android:lines">1</item>
+    </style>
+    
+    <style name="Artist">
+    	<item name="android:textSize">8sp</item>
+    	<item name="android:textColor">@android:color/black</item>
+   	<item name="android:ellipsize">end</item>
+   	<item name="android:lines">1</item>
+   	<item name="android:paddingLeft">3dp</item>
+    </style>
+    
+    <style name="PlayedAt">
+   	<item name="android:textSize">7sp</item>
+    	<item name="android:textColor">@android:color/black</item>
+    	<item name="android:paddingBottom">2dp</item>
+    </style>
+    
+    
+    
+    <style name="Title.LastPlayed">
+    	<item name="android:textSize">12sp</item>
+    </style>
+    
+    <style name="Artist.LastPlayed">
+    	<item name="android:textSize">10sp</item>
+    	<item name="android:paddingLeft">0dp</item>
+    </style>
+    
+    <style name="PlayedAt.LastPlayed">
+   	<item name="android:textSize">9sp</item>
+   	<item name="android:paddingBottom">0dp</item>
+    </style>
+
+</resources>
